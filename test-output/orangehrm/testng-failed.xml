@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [orangehrm]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.orangehrm.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Orange HRM(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.orangehrm.admintab.testCases.TC_AddnewJobTitles">
+        <methods>
+          <include name="AddJobTitle"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangehrm.admintab.testCases.TC_AddnewJobTitles -->
+    </classes>
+  </test> <!-- Orange HRM(failed) -->
+</suite> <!-- Failed suite [orangehrm] -->
