@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="orangehrm">
 
@@ -11,14 +11,13 @@
 	<test name="Orange HRM">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		<!-- 	<class name="com.orangehrm.testCases.TC_LoginTest_001" />
-			 <class name="com.orangehrm.testCases.TC_LoginDDT_002" /> -->
+			<!-- 	<class name="com.orangehrm.testCases.TC_LoginTest_001" />
+			 <class name="com.orangehrm.testCases.TC_LoginDDT_002" /> 
 			 <class name="com.orangehrm.admintab.testCases.TC_AddnewJobTitles" />	
 			 <class name="com.orangehrm.admintab.testCases.TC_EditJobTitles" /> 
-			  <class name="com.orangehrm.admintab.testCases.TC_DeleteJobTitles" />
-			 
-			 
-			
+			  <class name="com.orangehrm.admintab.testCases.TC_DeleteJobTitles" />-->
+			<class name="com.orangehrm.admintab.testCases.TC_AddPayGrade" />
+
 
 		</classes>
 

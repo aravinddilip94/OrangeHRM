@@ -88,6 +88,7 @@ public class BaseClass {
 	public void intilization() throws InterruptedException
 	{
 		
+		logger.info("URL is opened");
 		
 		LoginPage lp=new LoginPage(driver);
 		lp.setUserName(username);
@@ -95,8 +96,9 @@ public class BaseClass {
 		
 		lp.setPassword(password);
 		logger.info("Entered password");
-		
 		lp.clickSubmit();
+		
+		
 		
 	}
 	

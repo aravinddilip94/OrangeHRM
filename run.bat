@@ -1,2 +1,2 @@
-cd C:\Users\admin\myworkspace\inetBankingV1
+C:\Users\HP\git\repository\OrangeHRM_Automation
 mvn clean install

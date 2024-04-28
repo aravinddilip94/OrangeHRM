@@ -7,13 +7,13 @@
   <test thread-count="5" name="Orange HRM(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.orangehrm.admintab.testCases.TC_AddnewJobTitles">
+      <class name="com.orangehrm.admintab.testCases.TC_AddPayGrade">
         <methods>
-          <include name="AddJobTitle"/>
+          <include name="AddPayGrade"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.orangehrm.admintab.testCases.TC_AddnewJobTitles -->
+      </class> <!-- com.orangehrm.admintab.testCases.TC_AddPayGrade -->
     </classes>
   </test> <!-- Orange HRM(failed) -->
 </suite> <!-- Failed suite [orangehrm] -->

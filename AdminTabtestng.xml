@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AdminTabSuite">
+
+	<listeners>
+		<listener class-name="com.orangehrm.utilities.Reporting" />
+	</listeners>
+
+	<test thread-count="5" name="AdminTabTest">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+		
+			<class name="com.orangehrm.admintab.testCases.TC_AddnewJobTitles" />
+			<class name="com.orangehrm.admintab.testCases.TC_AddPayGrade">
+				<methods>
+					<include name="AddPayGrade" />					
+				</methods>
+			</class>			
+			<class name="com.orangehrm.admintab.testCases.TC_EditJobTitles" />
+			<class name="com.orangehrm.admintab.testCases.TC_DeleteJobTitles" />
+		</classes>
+	</test> <!-- AdminTabTest -->
+</suite> <!-- AdminTabSuite -->
